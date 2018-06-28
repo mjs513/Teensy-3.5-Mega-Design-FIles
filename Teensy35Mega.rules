@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 99)
+    (start_pass_no 5914)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -44,7 +44,7 @@
     "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
   )
   (via 
-    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" default
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
   )
   (via_rule
     default "Via[0-1]_600:400_um"
@@ -70,12 +70,12 @@
     "Net-(P13-Pad8)" "Net-(P13-Pad7)" "Net-(P13-Pad4)" "Net-(P13-Pad3)" "Net-(P13-Pad2)" "Net-(P13-Pad1)" "Net-(P10-Pad15)" "Net-(P10-Pad13)"
     "Net-(P10-Pad11)" "Net-(P10-Pad9)" "Net-(P10-Pad7)" "Net-(P10-Pad5)" "Net-(P10-Pad3)" "Net-(P10-Pad14)" "Net-(P10-Pad19)" "Net-(P10-Pad16)"
     "Net-(P10-Pad17)" "Net-(P10-Pad18)" "Net-(P10-Pad20)" "Net-(P6-Pad9)" "Net-(P6-Pad10)" "Net-(P7-Pad1)" "Net-(P7-Pad2)" "Net-(P12-Pad3)"
-    "Net-(P12-Pad4)" "Net-(P8-Pad1)" "Net-(P10-Pad34)" "Net-(P8-Pad3)" "Net-(P10-Pad32)" "Net-(P8-Pad5)" "Net-(P10-Pad30)" "Net-(P8-Pad7)"
-    "Net-(P10-Pad28)" "Net-(P10-Pad23)" "Net-(P10-Pad21)" "Net-(P9-Pad3)" "Net-(P9-Pad4)" "Net-(P10-Pad4)" "Net-(P10-Pad6)" "Net-(P10-Pad8)"
-    "Net-(P10-Pad10)" "Net-(P10-Pad12)" "Net-(P10-Pad22)" "Net-(P10-Pad24)" "Net-(P10-Pad25)" "Net-(P10-Pad26)" "Net-(P10-Pad27)" "Net-(P10-Pad29)"
-    "Net-(P10-Pad31)" "Net-(P10-Pad33)" "Net-(P10-Pad35)" "Net-(P14-Pad3)" "Net-(P16-Pad2)" "Net-(BT1-Pad2)" "Net-(BT1-Pad1)" "Net-(J1-Pad2)"
-    "Net-(J1-Pad3)" "Net-(CON1-Pad1)" "Net-(P16-Pad1)" "Net-(P10-Pad1)" "Net-(J1-Pad1)"
-    (clearance_class default)
+    "Net-(P12-Pad4)" "Net-(P10-Pad34)" "Net-(P10-Pad32)" "Net-(P10-Pad30)" "Net-(P10-Pad28)" "Net-(P10-Pad23)" "Net-(P10-Pad21)" "Net-(P9-Pad3)"
+    "Net-(P9-Pad4)" "Net-(P10-Pad4)" "Net-(P10-Pad6)" "Net-(P10-Pad8)" "Net-(P10-Pad10)" "Net-(P10-Pad12)" "Net-(P10-Pad22)" "Net-(P10-Pad24)"
+    "Net-(P10-Pad25)" "Net-(P10-Pad26)" "Net-(P10-Pad27)" "Net-(P10-Pad29)" "Net-(P10-Pad31)" "Net-(P10-Pad33)" "Net-(P10-Pad35)" "Net-(P14-Pad3)"
+    "Net-(P16-Pad2)" "Net-(BT1-Pad2)" "Net-(BT1-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(CON1-Pad1)" "Net-(P16-Pad1)" "Net-(P10-Pad1)"
+    "Net-(J1-Pad1)" "Net-(P8-Pad2)" "Net-(P8-Pad4)" "Net-(P8-Pad6)" "Net-(P8-Pad8)"
+    (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 250.0)

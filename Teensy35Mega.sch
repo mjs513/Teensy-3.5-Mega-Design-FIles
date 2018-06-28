@@ -273,7 +273,7 @@ F 1 "CONN_02X04" H 4250 6650 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 4250 5700 50  0001 C CNN
 F 3 "" H 4250 5700 50  0000 C CNN
 	1    4250 6900
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_02X03 P15
